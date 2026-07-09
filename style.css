@@ -5,6 +5,14 @@
   --accent: #8a5a2b;
   --border: #e6e3dd;
   --max-width: 720px;
+
+  --tint-about: #f6f2ec;
+  --tint-news: #eef2f7;
+  --tint-education: #f1f5ec;
+  --tint-experience: #f9f0e9;
+  --tint-skills: #f4eef7;
+  --tint-service: #f7eef0;
+  --tint-publications: #eef6f4;
 }
 
 * {
@@ -103,8 +111,18 @@ a:hover {
 /* Sections */
 
 section {
-  margin-bottom: 52px;
+  margin-bottom: 28px;
+  padding: 36px 32px;
+  border-radius: 16px;
 }
+
+#about       { background: var(--tint-about); }
+#news        { background: var(--tint-news); }
+#education   { background: var(--tint-education); }
+#experience  { background: var(--tint-experience); }
+#skills      { background: var(--tint-skills); }
+#service     { background: var(--tint-service); }
+#publications { background: var(--tint-publications); }
 
 h2 {
   font-size: 0.78rem;
@@ -282,5 +300,9 @@ ul {
   .news li {
     flex-direction: column;
     gap: 2px;
+  }
+  section {
+    padding: 24px 20px;
+    border-radius: 12px;
   }
 }
