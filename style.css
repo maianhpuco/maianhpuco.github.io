@@ -163,16 +163,6 @@ ul {
   font-size: 0.96rem;
 }
 
-.plain-list {
-  list-style: none;
-  padding: 0;
-}
-
-.plain-list li {
-  margin-bottom: 8px;
-  font-size: 0.96rem;
-}
-
 /* Skills */
 
 .skills dt {
