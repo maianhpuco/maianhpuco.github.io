@@ -1,0 +1,159 @@
+% \documentclass{resume} % Use the custom resume.cls style
+
+\documentclass[11pt]{resume}
+
+\usepackage{mathptmx} % Standard Times New Roman font
+\usepackage{fontawesome5}
+\usepackage[left=0.4 in,top=0.35in,right=0.4 in,bottom=0.35in]{geometry} % Document margins
+\newcommand{\tab}[1]{\hspace{.1967\textwidth}\rlap{#1}}
+\newcommand{\itab}[1]{\hspace{0em}\rlap{#1}}
+\usepackage{enumitem}
+\newcommand{\ptitle}[1]{{\fontsize{10.5}{12}\selectfont \textit{#1}}}
+\newcommand{\ptitleb}[1]{{\fontsize{9}{10.5}\selectfont \textbf{#1}}}
+\def\sectionskip{\smallskip}
+\def\sectionlineskip{\smallskip}
+\def\nameskip{\smallskip}
+\def\addressskip{\vspace{0.05em}}
+
+\setlist[itemize]{noitemsep, topsep=1pt}
+
+\name{Anh Mai Vu}
+
+% Note: the rSection class prints address calls in the order (3rd, 1st, 2nd),
+% so the calls below are ordered to print as: contact line, LinkedIn, Google Scholar.
+\address{\faLinkedin\ \href{https://www.linkedin.com/in/vu-mai-anh/}{LinkedIn: linkedin.com/in/vu-mai-anh}}
+\address{\faGraduationCap\ \href{https://scholar.google.com/citations?user=vB0p8bYAAAAJ}{Google Scholar: scholar.google.com/citations?user=vB0p8bYAAAAJ}}
+\address{Houston, TX | +1 (281) 780-0045 | mvu9@cougarnet.uh.edu}
+
+\begin{document}
+
+\begin{rSection}{Summary}
+
+PhD student in Computer Engineering at the University of Houston seeking a Summer 2026 AI/ML Research Internship. Research focuses on trustworthy AI, explainable AI, computer vision, multimodal learning, medical image analysis, visual grounding, and human-centered AI. Experienced in Python, PyTorch, segmentation, weakly supervised learning, gaze-guided modeling, ML pipelines, SQL, BigQuery, and Apache Airflow.
+
+\end{rSection}
+
+\begin{rSection}{Skills}
+\textbf{Programming:} Python, SQL, Bash \\
+\textbf{Machine Learning:} PyTorch, Deep Learning, Computer Vision, Image Segmentation, Object Detection, Explainable AI, Weakly Supervised Learning \\
+\textbf{Multimodal AI:} Vision-Language Models, Visual Grounding, Medical Image Analysis, Gaze Modeling, Agentic AI \\
+\textbf{Data and Infrastructure:} BigQuery, Apache Airflow, Google Apps Script, Git, Linux
+\end{rSection}
+
+\begin{rSection}{Education}
+
+{\bf PhD in Computer Engineering} \hfill {\bf Aug 2024 – Present} \\
+University of Houston, USA \\
+Topic: AI in Medicine; Focus: Computational Pathology, Trustworthy AI, Gaze-Guided Explainability
+
+{\bf MSc in Mathematical Foundations of Computer Science (Data Science)}  \\ %2021 - 2023
+Vietnam National University – Ho Chi Minh City, Vietnam \quad GPA 8.97/10
+
+% Thesis: Conditional Distribution-based Imputation of Missing Values
+{\bf Bachelor of Business Administration} \\
+University of Economics and Law, Ho Chi Minh City, Vietnam
+%2013 - 2016
+\end{rSection}
+%-----------------
+\begin{rSection}{Experience}
+
+\textbf{Research Assistant} \hfill \textbf{Aug 2024 – Present} \\
+Department of Computer Engineering, University of Houston, USA \\
+Supervisor: Prof. Hien Van Nguyen
+
+\begin{itemize}
+    \item Develop explainable AI and computer vision methods for whole-slide pathology image analysis using deep learning, weakly supervised learning, visual grounding, and model attribution.
+    \item Build multimodal AI models that integrate medical images, clinical text, and eye-gaze data to align model reasoning with expert diagnostic behavior.
+    \item Implement research pipelines in Python and PyTorch for image segmentation, feature attribution, prototype learning, and multimodal representation learning.
+    \item Published first-author papers at WACV 2026, ISBI 2026, and MIDL 2026; contributed to MICCAI 2025, Scientific Reports, and Knowledge-Based Systems.
+\end{itemize}
+
+\textbf{Research Assistant} - Research Internship (NSTC Scholarship Program, Taiwan)
+  \hfill \textbf{Oct 2023 -- Jan 2024} \\
+National Cheng Kung University - BME Lab (Cancer Organoid Research) \\
+Supervisor: Prof. Ting-Yuan Tu
+\begin{itemize}
+    \item Applied deep learning and computer vision methods in a biomedical engineering lab to analyze functional behavior in human cardiac organoids, enabling real-time quantification of contraction dynamics from microscopy videos.
+\end{itemize}
+
+\textbf{Senior Data Analyst, Machine Learning Focus} \hfill \textbf{Jan 2019 -- Oct 2022} \\
+Tiki Corporation, Vietnam
+\begin{itemize}
+  \item Designed and deployed production recommendation systems using collaborative filtering, content-based models, and hybrid machine learning approaches.
+  \item Built scalable end-to-end data and ML pipelines using Python, SQL, BigQuery, and Apache Airflow.
+  \item Evaluated machine learning models and product changes through A/B testing, performance monitoring, and business metric analysis.
+  \item Led data-driven modeling projects involving customer segmentation, clustering, predictive analytics, and automated reporting.
+\end{itemize}
+
+\textbf{Data Analyst} \hfill \textbf{Nov 2017 -- Jan 2019} \\
+GHN Logistics, Vietnam
+\begin{itemize}
+  \item Developed data warehouses, automated reporting systems, and analytical dashboards using Python, SQL, and Google Apps Script.
+\end{itemize}
+\end{rSection}
+%-------------------------------------------
+\begin{rSection}{Publications}
+{\small $^{*}$Equal contribution}
+\vspace{-0.5em}
+\begin{itemize}
+    \itemsep-0.35em
+    \item
+        \href{https://arxiv.org/pdf/2511.08464}{
+            \ptitle{Contrastive Integrated Gradients: A Feature Attribution-Based Method for Explaining Whole Slide Image Classification.}
+            }\\
+          \underline{Anh Mai Vu}, T.L. Vo, N.L.Q. Bui, N.N.L. Binh, A. Awasthi, H.Q. Vo, T.H. Nguyen, Z. Han, C. Mohan, H.V. Nguyen \\
+          \ptitleb{IEEE/CVF Winter Conference on Applications of Computer Vision (WACV)}, 2026
+    \item \href{https://arxiv.org/pdf/2512.05922}{\ptitle{LPD: Learnable Prototypes with Diversity Regularization for Weakly Supervised Histopathology Segmentation.}} \\
+      \underline{Anh Mai Vu*}, Khang Le*, T.K.T. Vo, H. Thach, N.L.Q. Bui, T.H. Nguyen, M.H.N. Le, Z. Han, C. Mohan, H.V. Nguyen \\
+    \ptitleb{IEEE International Symposium on Biomedical Imaging (ISBI)}, 2026
+    \item \href{https://arxiv.org/pdf/2512.10316}{\ptitle{ConStruct: Structural Distillation of Foundation Models for Prototype-Based Weakly Supervised Histopathology Segmentation.}} \\
+      \underline{Anh M. Vu*}, Khang Le*, Ha Thach*, Trang T.K. Vo, Han H. Huynh, David Yang, Minh H.N. Le, Thanh-Huy Nguyen, Akash Awasthi, Chandra Mohan, Zhu Han, Hien Van Nguyen \\
+      \ptitleb{Medical Imaging with Deep Learning (MIDL)}, 2026
+    \item \href{https://www.sciencedirect.com/science/article/abs/pii/S0950705125014728}{\ptitle{Structural Chain of Thoughts for Radiology Education.}} \\
+          A. Awasthi, B. Chung, \underline{A.M. Vu}, S. Khan, N. Le, Z. Deng, R. Agrawal, C.C. Wu, H. Van Nguyen \\
+          \ptitleb{Knowledge-Based Systems (Elsevier)}, 2025 \textbf{(IF: 7.6, Q1)}
+   \item \href{https://www.nature.com/articles/s41598-025-97935-y}{\ptitle{Modeling radiologists' cognitive processes using a digital gaze twin to enhance radiology training.}} \\
+          A. Awasthi, \underline{Anh Mai Vu}, N. Le, Z. Deng, S. Maulik, R. Agrawal, C.C. Wu, H.V. Nguyen \\
+          \ptitleb{Scientific Reports (Springer Nature)}, 2025 \textbf{(IF:3.9, Q1)}
+    \item \href{https://link.springer.com/chapter/10.1007/978-3-032-04971-1_34}{\ptitle{MAARTA: Multi-Agentic Adaptive Radiology Teaching Assistant.}} \\
+          A. Awasthi, B.V. Chung, \underline{Anh M. Vu}, N. Le, R. Agrawal, Z. Deng, C. Wu, H.V. Nguyen \\
+          \ptitleb{International Conference on Medical Image Computing and Computer-Assisted Intervention (MICCAI)}, 2025
+    \item \href{https://arxiv.org/pdf/2601.14563}{\ptitle{Scribble-Supervised Medical Image Segmentation with Dynamic Teacher Switching and Hierarchical Consistency.}} \\
+    H.T. Nguyen, L.H. Cao, D.T. Chung, \underline{Anh Mai Vu}, T.-M. Nguyen, M.H.N. Le, P.K. Huynh, U. Bagci \\
+    \ptitleb{IEEE International Symposium on Biomedical Imaging (ISBI)}, 2026
+    \item \ptitle{IMACT-CXR: An Interactive Multi-Agent Conversational Tutoring System for Chest X-Ray Interpretation} \\
+      Tuan-Anh Le, \underline{Anh Mai Vu}, David Yang, Akash Awasthi, Hien Van Nguyen \\
+      \ptitleb{IEEE International Symposium on Biomedical Imaging (ISBI)}, 2026
+    \item \ptitle{QwenVLConnector: A Fast, Unified Medical VLM Chatbot for Fine-Grained Clinical Perception and Text Generation.} \\
+          T. Nguyen, T.H. Nguyen, G.M. Hoang, \underline{A.M. Vu}, U. Bagci \\
+          \ptitleb{MICCAI 2025 FLARE Challenge}
+    \item \href{https://link.springer.com/chapter/10.1007/978-3-032-05825-6_6}{\ptitle{Lightweight Dual-Task Framework for Semi-supervised Lesion Segmentation with Knowledge Distillation from SAM.}} \\
+          X.-L. Huynh, H.-T. Pham, \underline{Anh Mai Vu}, T.-M. Nguyen, T.Q.K. Bui, T.-B. Nguyen, Q. Nguyen, M.H.N. Le, P.K. Huynh \\
+          \ptitleb{MICCAI Workshop on Deep Generative Models (DGM)}, 2025
+    \item \href{https://openaccess.thecvf.com/content/CVPR2024W/DEF-AI-MIA/papers/Nguyen_Blurry-Consistency_Segmentation_Framework_with_Selective_Stacking_on_Differential_Interference_Contrast_CVPRW_2024_paper.pdf}{\ptitle{Blurry-Consistency Segmentation Framework with Selective Stacking on Differential Interference Contrast 3D Breast Cancer Spheroid.}} \\
+          T.H. Nguyen, T.K.N. Ngo, \underline{M.A. Vu}, T.Y. Tu \\
+          \ptitleb{IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR) Workshops}, 2024
+    \item \href{https://link.springer.com/chapter/10.1007/978-3-031-53302-0_8}{\ptitle{Correlation visualization under missing values: a comparison between imputation and direct parameter estimation methods.}} \\
+          \underline{M.A. Vu}$^{*}$, N.H. Pham$^{*}$, K.L. Vo$^{*}$, T. Nguyen, M.A. Riegler, P. Halvorsen, B.T. Nguyen \\
+          \ptitleb{International Conference on Multimedia Modeling (MMM)}, 2024
+    \item \ptitle{DualProtoSeg: Simple and Efficient Design with Text- and Image-Guided Prototype Learning for Weakly Supervised Histopathology Image Segmentation.} \\
+      \underline{Anh Mai Vu*}, Khang P. Le*, Trang T.K. Vo*, Ha Thach, Huy Hung Nguyen, David Yang, Han H. Huynh, Quynh Nguyen, Tuan M. Pham, Tuan-Anh Le, Minh H.N. Le, Thanh-Huy Nguyen, Akash Awasthi, Chandra Mohan, Zhu Han, Hien Van Nguyen \\
+      \ptitleb{Under Review}, 2026
+
+\end{itemize}
+
+\end{rSection}
+
+\begin{rSection}{Service}
+\textbf{Technical Chair}, Emerging LLM/LMM Applications in Medical Imaging (ELAMI) Workshop, MICCAI 2026 \hfill \textbf{2026} \\
+University of Houston
+\end{rSection}
+
+\begin{rSection}{Awards}
+\begin{itemize}
+    \item MICCAI FLARE Challenge 2025 Finalist with Honorable Award. \href{https://drive.google.com/file/d/1MMi4t1MICseOa5s3F3MLBiRWls1amj__/view?usp=sharing}{[Cert]}
+    \item AI Challenge 2023, National Video Retrieval Competition, Finalist.
+\end{itemize}
+\end{rSection}
+
+\end{document}
