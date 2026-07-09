@@ -55,8 +55,8 @@ a:hover {
 }
 
 .avatar {
-  width: 96px;
-  height: 96px;
+  width: 160px;
+  height: 160px;
   border-radius: 50%;
   object-fit: cover;
   flex-shrink: 0;
@@ -284,6 +284,10 @@ ul {
     flex-direction: column;
     align-items: flex-start;
     gap: 16px;
+  }
+  .avatar {
+    width: 120px;
+    height: 120px;
   }
   .news li {
     flex-direction: column;
